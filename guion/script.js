@@ -35,13 +35,13 @@ jeans.push(new Producto("Jeans beige", 9, 4500, "Beige", 10));
 
 //Recorro los arrays para mostrarle los productos al usuario
 for (const remera of remeras) {
-    alert("ID (" + remera.id + ") - " + remeras.nombre);
+    alert("ID (" + remera.id + ") - " + remera.nombre);
 }
 for (const saco of sacos) {
-    alert("ID (" + saco.id + ") - " + sacos.nombre);
+    alert("ID (" + saco.id + ") - " + saco.nombre);
 }
-for (const jeans of jeans) {
-    alert("ID (" + jeans.id + ") - " + jeans.nombre);
+for (const jean of jeans) {
+    alert("ID (" + jean.id + ") - " + jean.nombre);
 }
 
 //Funcion para calcular el precio final de la compra
